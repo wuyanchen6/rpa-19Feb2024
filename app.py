@@ -11,7 +11,7 @@ def main()
 r = request.form.get("r")
 return(render_template("index.html",r=r))
 
-@app.route("/",methods=["GET","POST"])
+@app.route("/imagegpt",methods=["GET","POST"])
 def main()
 return(render_template("index.html",))
 
