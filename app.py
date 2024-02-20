@@ -13,7 +13,7 @@ return(render_template("index.html",r=r))
 
 @app.route("/",methods=["GET","POST"])
 def main()
-return(render_template("index.html",r=r))
+return(render_template("index.html",))
 
 
 if __name__ == "__main__":
